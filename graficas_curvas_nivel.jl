@@ -32,10 +32,9 @@ plotlyjs() # Permite rotar e interactuar con la gráfica 3D
 
 # Definir la función z = f(x,y)
 f(x, y) = sin(sqrt(x^2 + y^2))
-# Para guardar la imagen
-savefig("superfice.png")
-
 x = -5:0.2:5
 y = -5:0.2:5
 
 surface(x, y, f, title="Superficie 3D", xlabel="x", ylabel="y", zlabel="z")
+# Para guardar la imagen
+savefig("superfice.png")
