@@ -15,6 +15,7 @@ Este repositorio contiene scripts en **Julia** para la visualización de superfi
 * `animcacion_varias_variables.jl`: Script interactivo y de animación reactiva con controles deslizantes usando `GLMakie`.
 * `superficie.png`: Captura generada de la superficie 3D.
 * `superficie_animada.gif`: Animación exportada de la variación de la superficie y rotación de cámara.
+* ![Superficie Animada](superficie_animada.gif)
 
 ---
 
