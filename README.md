@@ -2,8 +2,8 @@
 
 Este repositorio contiene scripts en **Julia** para la visualización de superficies tridimensionales, curvas de nivel y animaciones interactivas aplicadas al estudio del Cálculo Multivariable (Cálculo 3).
 
-**Autor:** Miguel Ángel Chávez García ([@Miguelangel25Chg](https://github.com/Miguelangel25Chg))
-FES Acatlán, UNAM.
+**Autor:** Miguel Ángel Chávez García ([@Miguelangel25Chg](https://github.com/Miguelangel25Chg))  
+**Institución:** FES Acatlán, UNAM
 
 Este repositorio contiene scripts en **Julia** para la visualización de superficies
 
