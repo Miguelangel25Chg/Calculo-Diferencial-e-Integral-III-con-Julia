@@ -33,3 +33,16 @@ limits!(ax3d, -5, 5, -5, 5, -3, 3)
 limits!(ax2d, -5, 5, -5, 5)
 
 display(fig)
+
+# --------------------------------------------------
+# 7. GRABAR LA ANIMACIÓN
+# --------------------------------------------------
+frames = 1:120 # 120 cuadros
+
+record(fig, "superficie_animada.gif", frames; framerate = 30) do i
+    # Hacemos oscilar la frecuencia de forma suave con un seno
+    frecuencia[] = 1.5 + sin(i * 0.05)
+    
+    # También podemos ir rotando la cámara en 3D frame a frame
+    ax3d.azimuth[] = 1.27π + 0.01 * i
+end
